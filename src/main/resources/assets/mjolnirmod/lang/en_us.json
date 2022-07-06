@@ -2,5 +2,9 @@
   "item.mjolnirmod.zircon": "Zircon",
   "item.mjolnirmod.raw_zircon": "Raw Zircon",
 
+  "block.mjolnirmod.zircon_block": "Block of Zircon",
+  "block.mjolnirmod.zircon_ore": "Zircon Ore",
+  "block.mjolnirmod.deepslate_zircon_ore": "Deepslate Zircon Ore",
+
   "itemGroup.asgardtab": "Asgard"
 }
