@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mjolnirmod:zircon_block"
+    }
+  ],
+  "result": {
+    "item": "mjolnirmod:zircon",
+    "count": 9
+  }
+}

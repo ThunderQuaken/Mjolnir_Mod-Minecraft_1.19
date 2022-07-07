@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mjolnirmod:block/netherrack_zircon_ore"
+  }
+}

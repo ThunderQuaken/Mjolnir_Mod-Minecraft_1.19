@@ -5,6 +5,8 @@
   "block.mjolnirmod.zircon_block": "Block of Zircon",
   "block.mjolnirmod.zircon_ore": "Zircon Ore",
   "block.mjolnirmod.deepslate_zircon_ore": "Deepslate Zircon Ore",
+  "block.mjolnirmod.netherrack_zircon_ore": "Netherrack Zircon Ore",
+  "block.mjolnirmod.endstone_zircon_ore": "Endstone Zircon Ore",
 
   "itemGroup.asgardtab": "Asgard"
 }
