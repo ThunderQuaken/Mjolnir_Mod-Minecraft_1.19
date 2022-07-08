@@ -3,6 +3,7 @@
   "values": [
     "mjolnirmod:zircon_ore",
     "mjolnirmod:zircon_block",
-    "mjolnirmod:deepslate_zircon_ore"
+    "mjolnirmod:deepslate_zircon_ore",
+    "mjolnirmod:zircon_lamp"
   ]
 }

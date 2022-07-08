@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZRZ",
+    "RGR",
+    "ZRZ"
+  ],
+  "key": {
+    "Z": {
+      "item": "mjolnirmod:zircon"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "mjolnirmod:zircon_lamp"
+  }
+}
