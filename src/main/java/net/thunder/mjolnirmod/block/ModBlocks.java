@@ -5,6 +5,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -13,6 +14,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.thunder.mjolnirmod.MjolnirMod;
+import net.thunder.mjolnirmod.block.custom.BlueBerryCropBlock;
 import net.thunder.mjolnirmod.block.custom.JumpyBlock;
 import net.thunder.mjolnirmod.block.custom.ZirconLampBlock;
 import net.thunder.mjolnirmod.item.ModCreativeModeTab;
@@ -51,6 +53,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> ZIRCON_LAMP = registerBlock("zircon_lamp",
             () -> new ZirconLampBlock(BlockBehaviour.Properties.of(Material.GLASS)
                     .strength(6f).requiresCorrectToolForDrops().lightLevel(state -> state.getValue(ZirconLampBlock.LIT) ? 15 : 0)), ModCreativeModeTab.ASGARD_TAB);
+
+    public static final RegistryObject<Block> BLUEBERRY_CROP = BLOCKS.register("blueberry_crop",
+            () -> new BlueBerryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

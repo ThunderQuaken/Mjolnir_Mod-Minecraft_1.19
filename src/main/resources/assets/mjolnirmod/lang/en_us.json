@@ -2,6 +2,8 @@
   "item.mjolnirmod.zircon": "Zircon",
   "item.mjolnirmod.raw_zircon": "Raw Zircon",
   "item.mjolnirmod.eight_ball": "Eight Ball",
+  "item.mjolnirmod.blueberry": "Blueberry",
+  "item.mjolnirmod.blueberry_seeds": "Blueberry Seeds",
 
   "block.mjolnirmod.jumpy_block": "Jumpy Block",
   "block.mjolnirmod.zircon_block": "Block of Zircon",
@@ -10,6 +12,7 @@
   "block.mjolnirmod.netherrack_zircon_ore": "Netherrack Zircon Ore",
   "block.mjolnirmod.endstone_zircon_ore": "Endstone Zircon Ore",
   "block.mjolnirmod.zircon_lamp": "Zircon Lamp",
+  "block.mjolnirmod.blueberry_crop": "Blueberry Crop",
 
   "itemGroup.asgardtab": "Asgard"
 }
